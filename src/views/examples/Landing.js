@@ -45,6 +45,7 @@ import {
 
 // core components
 import DemoNavbar from "components/Navbars/DemoNavbar.js";
+import SimpleFooter from "components/Footers/SimpleFooter";
 
 
 class Landing extends React.Component {
@@ -211,6 +212,7 @@ class Landing extends React.Component {
             </Container>
           </section>
         </main>
+        <SimpleFooter />
       </>
     );
   }
