@@ -81,13 +81,11 @@ class Landing extends React.Component {
                   <Row>
                     <Col lg="6">
                       <h1 className="display-3 text-white">
-                        A beautiful Design System{" "}
-                        <span>completed with examples</span>
+                        Tech is exciting!{" "}
+                        <span>even when it's broken!</span>
                       </h1>
                       <p className="lead text-white">
-                        The design system comes with four pre-built pages to
-                        help you get started faster. You can change the text and
-                        images and you're good to go.
+                        I have always enjoyed learning how things work, as well as learning how to make something new or an existing something better. Software development is allowing me to do it all!
                       </p>
                       <div className="btn-wrapper">
                         <Button
@@ -148,12 +146,10 @@ class Landing extends React.Component {
                             <i className="ni ni-check-bold" />
                           </div>
                           <h6 className="text-primary text-uppercase">
-                            Download Argon
+                            HyprTypr
                           </h6>
                           <p className="description mt-3">
-                            Argon is a great free UI package based on Bootstrap
-                            4 that includes the most important components and
-                            features.
+                            HyprTypr was our 201 final project, and is a game that allows a user to practice typing accuracy and speed. 
                           </p>
                           <div>
                             <Badge color="primary" pill className="mr-1">
@@ -184,12 +180,10 @@ class Landing extends React.Component {
                             <i className="ni ni-istanbul" />
                           </div>
                           <h6 className="text-success text-uppercase">
-                            Build Something
+                            Code 301
                           </h6>
                           <p className="description mt-3">
-                            Argon is a great free UI package based on Bootstrap
-                            4 that includes the most important components and
-                            features.
+                            This is where my 301 final project will be described. 
                           </p>
                           <div>
                             <Badge color="success" pill className="mr-1">
@@ -220,12 +214,10 @@ class Landing extends React.Component {
                             <i className="ni ni-planet" />
                           </div>
                           <h6 className="text-warning text-uppercase">
-                            Prepare Launch
+                            Code 401
                           </h6>
                           <p className="description mt-3">
-                            Argon is a great free UI package based on Bootstrap
-                            4 that includes the most important components and
-                            features.
+                            This is where my 401 final project will be described. 
                           </p>
                           <div>
                             <Badge color="warning" pill className="mr-1">
@@ -269,13 +261,11 @@ class Landing extends React.Component {
                     <div className="icon icon-lg icon-shape icon-shape-success shadow rounded-circle mb-5">
                       <i className="ni ni-settings-gear-65" />
                     </div>
-                    <h3>Awesome features</h3>
+                    <h3>About Me</h3>
                     <p>
-                      The kit comes with three pre-built pages to help you get
-                      started faster. You can change the text and images and
-                      you're good to go.
+                      I have been in IT positions for over 10 years and excited to make the career turn into software development. I look forward to the new challenge, but also the flexibility of working remotely and creating my work hours to spend the best hours of the day with my family rather than in a cubical. 
                     </p>
-                    <ul className="list-unstyled mt-5">
+                    {/* <ul className="list-unstyled mt-5">
                       <li className="py-2">
                         <div className="d-flex align-items-center">
                           <div>
@@ -325,7 +315,7 @@ class Landing extends React.Component {
                           </div>
                         </div>
                       </li>
-                    </ul>
+                    </ul> */}
                   </div>
                 </Col>
               </Row>
