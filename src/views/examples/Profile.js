@@ -88,7 +88,7 @@ class Profile extends React.Component {
                         <Button
                           className="mr-4"
                           color="info"
-                          href="#pablo"
+                          href="https://www.linkedin.com/in/tyler-a-johnson-wa/"
                           onClick={e => e.preventDefault()}
                           size="sm"
                         >
